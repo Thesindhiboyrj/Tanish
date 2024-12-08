@@ -1,0 +1,381 @@
+*{ margin: 0;
+  padding: 0;
+}
+body{ margin:0;
+  padding:0;
+  background-color: #1b1b1b; 
+  margin: 0px 10px;
+}
+/* Main page coursekart coding */
+
+.navigation{margin: 10px 10px 0px 10px;
+  border: 1px solid white;
+  border-radius: 23px;
+  padding:4px 2px;
+  background-color:white;
+  height: 32px;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+ 
+ nav ul li{ list-style: none; display: inline-block; 
+   
+ }
+ 
+ 
+ .navimg{ width:1.4rem;
+ margin: 0px 3px 0 0;
+ 
+ 
+ position: relative;
+ top:4px;
+   
+ }
+  .navimgb{ width:1.5rem;
+ margin: 0px 3px 0 0;
+ 
+ border-radius: 33px;
+ position: relative;
+ top:3px;
+   
+ }
+ .cloges{width:1.8rem; position: relative; bottom:6px;
+ cursor: pointer;
+ }
+ ul div{ display:inline-block;
+  
+ }
+ 
+.floatright{
+  float: right;
+  border: 1px solid white;
+   border-radius: 19px;
+  padding: 2px 4px;
+  margin-right: 7px;
+  position: relative;
+  bottom:4.2px;
+  left:8.5px;
+  background-color:#2F608CCF;
+}
+.floatright li input{ width:9.5rem;
+height: 1.3rem ;
+position: relative;
+bottom: 4px;
+border:1px solid #1b1b1b;
+border-radius: 24px;
+padding:2px 0px;
+margin-left:2px;
+  
+  
+}
+.floatright li input::placeholder{ 
+  padding:0px 5px;
+}
+
+
+.menubutton{ margin:0; padding: 0;  position: relative; 
+bottom:2px;
+right: 1px;
+;width:35px;
+border: 1px solid white;
+border-radius: 33px;
+
+  
+  
+}
+
+
+  
+.midsik{text-align: center;
+  margin-top:7%;
+}
+.midsik button{ border:none;
+  border:1px solid white;
+  
+  padding: 3px 2px;
+  color: #4286CD ;
+  font-size: 1rem;
+  width: 20%;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px; margin: 0px 10px 0px 0px;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  
+}
+
+.midsik button:hover{
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  color:white;
+background-color: #4286CD ;
+transition: 0.40s ease-in-out;
+  
+}
+
+.midsik a .buting{box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+  color:white;
+background-color: #4286CD ;}
+
+
+.container{
+  display:inline-block;
+  position: relative;
+  border:1px solid black; border-radius: 11px; 
+width: 90px;
+height: 110px;
+  padding: 10px 7px;
+  background-color: #FFFFFFFF;
+  box-shadow: 1px 1px 5px #000000, -1px -1px 5px #000000;
+  margin: 10px 0px 25px 0px; transition: .40s; }
+  
+  
+  
+.scroll{
+  display: flex;
+
+justify-content: flex-start;
+
+align-items: center; 
+gap: .5rem;
+
+width: 100%;
+
+overflow-x: scroll;
+}
+
+.maincatagory{ color:#FFFFFF;
+  margin-bottom: 15px;
+  font-size: 17px;
+  display:inline-block;
+  
+}
+
+.arrow{ width:1.5rem; float: right;
+  text-decoration: none; color: white;
+  
+}
+
+
+ 
+  
+  .main{
+    
+  
+   margin:auto;
+ 
+   
+    
+  transform: translateY(100%);
+  transition: transform 0.5s ease;}
+ .main.slide-in{ transform: translate(0);}
+
+.container img{ position: relative;
+left:5px;
+bottom:5px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 12px;
+  
+  
+}
+
+
+.container a{ display:block;
+  margin:4px 0px 3px 0px;
+  position: relative;
+  text-align: center;
+  
+  
+}
+.container a .buta,.downloadbut{ 
+border:none;
+width: 100px;
+height: 20px;
+font-size: .90rem;
+background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+padding: 3px 6px;
+color: #2B2B2B;
+font-weight: bold;
+
+position: relative;
+right: 5px;
+bottom:10px;
+
+
+  
+}
+.downloadbut{ font-size: .70rem; color:#3373D0;
+  position: relative; 
+  bottom:18px;
+  
+  
+}
+.container a .downloadbut:hover{ color:#5D9FFF;
+transition: 0.40s ease-in-out;
+  
+}
+
+
+
+
+/* Menu page */
+
+.menublock{
+  margin-top:10%;
+}
+.mblock{
+  
+  
+
+  margin-top: 10px; 
+margin-right:auto;
+margin-left: auto;
+border:1px solid white;
+  width: 80%;
+  padding:10px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+
+.mblocka{ display:inline-block;}
+
+.mblocka img{ width:2.5rem;
+  border:1px solid white;
+  border-radius: 25px;
+}
+
+
+
+.menubut{ 
+  display:inline-block;
+  position: relative;
+  bottom: 22px;
+  margin-left:5px;
+  
+  text-decoration: none;
+  border:none;
+  font-size: 1rem;
+ 
+  font-weight: bold;
+  
+ color: #282A2C;
+  
+  
+ 
+}
+.logpera{ display:inline-block;
+  position: relative;
+  right:21%;
+  bottom:6px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+
+.pagebut{ display:block;text-decoration: none;
+margin:15px 0px 15px 15px;
+  color:#4286CD;
+  font-size: 16px;
+  font-weight: bold;
+  
+  
+}
+.catagory{ font-size:18px; color: #282A2C ;}
+
+.menuback{ text-decoration: none;
+  color:white;
+  font-size:18px;
+  margin:10px 0px;
+  border:1px solid white;
+  padding:2px 3px;
+  border-radius: 5px;
+}
+
+
+
+/* Pdf page */
+
+
+
+.pdfcontainer{ width:140px;
+height: 50px;
+background-color: #434242CC;
+  border:1px solid white;
+  padding:7px 4px 0px 8px;
+  border-radius: 15px;
+  display:inline-block;
+  margin:5px;
+  box-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+
+.pdfcontainer .pdfimg{ width: 2.5rem;
+  border:1px solid #1b1b1b;
+  border-radius: 10px;
+}
+
+.pdfcontainer .pdftag{ text-decoration: none;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  left:5px;bottom:17px;
+  
+}
+
+ /* contect page */
+
+
+ .contbutton{border:1px solid white;
+  
+  padding: 3px 6px;
+  color: #4286CD ;
+  font-size: 1rem;
+
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px; margin: 0px 10px 0px 0px;
+}
+
+
+
+/* youtube page*/
+.main .ytcontainer{ display: inline-block;}
+.ytcontainer{ display: inline-block;border: 2px solid white; width: 280px; height: 220px; border-radius: 14px;
+padding:px; margin: 0; background-color: #7F7D7DCF; margin: 0px 10px 10px 0px; box-shadow: 1px 1px 5px black, -1px -1px 5px black;}
+
+
+.ytimg{width: 17.4rem; border-radius: 12px; 
+ border-bottom: 1px solid black;
+}
+
+.ytlogo{width: 3rem; 
+position: relative;
+top: 5px;
+right: 75px;
+border-radius: 100%;
+
+}
+
+.ytpare{ display: inline-block;
+color: white;font-weight: bold; position: relative;
+right:70px;
+bottom: 10px;
+}
+
+
+
+/* Box */
+
+
+.openbox{ width: 70%;
+margin-top: 60%;
+margin-right: 10%
+  
+}
+.nothing{ color:white;}
